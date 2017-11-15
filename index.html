@@ -32,7 +32,7 @@
       }
 
 
-    var demochart = new FusionCharts({
+    var firebaseChart = new FusionCharts({
         type: 'area2d',
         renderAt: 'chart-container',
         width: '650',
@@ -82,7 +82,9 @@
             },
             "data": cdata
         }
-    }).render();
+    });
+
+    firebaseChart.render();
 
     }
 
